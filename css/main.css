@@ -1,0 +1,146 @@
+body{
+	padding: 0px !important;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-nav > li > a {padding-top:40px !important; padding-bottom:5px !important;}
+.navbar {min-height:100px !important}
+
+.navbar-default{
+	background-color: white !important;
+	margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+    	min-height:80px !important
+    }
+    .navbar-toggle{
+		margin-top: 1.5em !important;
+    }
+    #bs-example-navbar-collapse-1 {
+    	border: none !important;
+    }
+}
+
+/*/.navigation*/
+
+/*Carousel*/
+.main-text
+{
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    color: #FFF;
+}
+
+.main-text h3{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 3em;
+}
+
+.main-text > .col-md-12 > h1{
+	color: #FFD300;
+	font-size: 3.5em;
+	font-family: 'Poiret One', cursive;
+
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+/*/.Carousel*/
+
+/*Explore our trips section*/
+
+	.slide2 > .container-fluid > .row > .col-md-12 >.col-md-4> p{
+		background-color: #33689F;
+		color: white;
+		border-radius: 2%;
+		padding : 1.5em;
+		margin: 2em;
+	}
+
+	.slide2 > .container-fluid > .row > .col-md-12 > .view-dep> p{
+		background-color: #EDC400;
+		color: white;
+		border-radius: 2%;
+		padding : 1.5em;
+		margin: 2em;
+	}
+
+	.slide2 .item  p{
+	position: absolute;
+    bottom: -10px;
+    font-size: 150%;
+    padding: 2em;
+    width: 100%;
+    background: rgba(255, 255, 255, .9);
+    height: 120px;
+
+	}
+/*/.Explore our trips section*/
+
+
+/*Slide 3 text here*/
+.slide3 .col-md-12{
+	margin-top: 15em;
+}
+
+.slide3 p{
+	line-height: 2em;
+	font-size: 1.25em;
+	text-align: justify;
+}
+
+
+/*/.Slide 3 text here*/
+
+/*Slide 4 text here*/
+.slide4{
+	margin-top: 15em;
+}
+/*/.Slide 4 text here*/
+
+.footer > .container-fluid {
+	background-color: #4A4A4A;
+	color: white;
+}
+
+.footer  p{
+	margin-top: 1em;
+}
+
+.footer .col-md-6{
+	margin-top: 1em;
+}
+
+.footer  span{
+	padding-top: 5.5em;
+}
+/*..............
+General Styles
+................*/
+.no-padding{
+	padding : 0px !important;
+}
+/*..............
+/.General Styles*
+................/
+
+
+
+
+
