@@ -64,39 +64,49 @@ body{
 /*/.Carousel*/
 
 /*Explore our trips section*/
-
-	.slide2 > .container-fluid > .row > .col-md-12 >.col-md-4> p{
+	.slide2 > .container-fluid > .row > .col-md-12 >.col-md-4 img{
+		text-align: center;
+	}
+	.slide2 > .container-fluid > .row > .col-md-12 >.col-md-4> h3{
 		background-color: #33689F;
 		color: white;
 		border-radius: 2%;
 		padding : 1.5em;
 		margin: 2em;
+		font-size: 1.25em;
 	}
 
-	.slide2 > .container-fluid > .row > .col-md-12 > .view-dep> p{
+	.slide2 > .container-fluid > .row > .col-md-12 >.col-md-3> p{
+		font-size: 1.5em;
+		background-color: #EDC400;
+		line-height: 300%;
+		margin: 0 0 0px !important;
+	}
+
+	.slide2 > .container-fluid > .row > .col-md-12 >.col-md-3 {
+		
+	}
+
+
+/*/.Explore our trips section*/
+
+/*View Departure Section*/
+	.view-dep > .container-fluid > .row > .col-md-4{
 		background-color: #EDC400;
 		color: white;
 		border-radius: 2%;
-		padding : 1.5em;
-		margin: 2em;
+		margin-top: 10em;
 	}
 
-	.slide2 .item  p{
-	position: absolute;
-    bottom: -10px;
-    font-size: 150%;
-    padding: 2em;
-    width: 100%;
-    background: rgba(255, 255, 255, .9);
-    height: 120px;
-
+	.view-dep > .container-fluid > .row > .col-md-4 p{
+		font-size: 1.5em;
+		line-height: 2em;
 	}
-/*/.Explore our trips section*/
-
+/*/.View Departure Section*/
 
 /*Slide 3 text here*/
 .slide3 .col-md-12{
-	margin-top: 15em;
+	margin-top: 7em;
 }
 
 .slide3 p{
@@ -110,7 +120,7 @@ body{
 
 /*Slide 4 text here*/
 .slide4{
-	margin-top: 15em;
+	margin-top: 7em;
 }
 /*/.Slide 4 text here*/
 
@@ -134,11 +144,28 @@ body{
 General Styles
 ................*/
 .no-padding{
-	padding : 0px !important;
+	padding : .5px !important;
 }
-/*..............
+/*/*..............
 /.General Styles*
-................/
+................/*/
+
+@media screen and (max-width: 474px) {
+    .carousel-inner p{
+    	font-size: 11.5px;
+    	line-height: 1.25em;
+    }
+    .main-text h1{
+    	margin-top: -4em;
+    	font-size: 1.75em !important;
+    	font-weight: bold;
+    }
+     .main-text h3{
+    	font-size: 1.65em !important;
+    }
+}
+
+
 
 
 
